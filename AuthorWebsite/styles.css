@@ -1,0 +1,33 @@
+body {
+    background-color: #fff;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+textarea {
+    background-color: #7C4235;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 80;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+body {
+    background-color: #79A5A8;
+}
+
+.justify-content-end {
+    background-color: #FFFFFF;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 80;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}

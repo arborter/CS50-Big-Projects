@@ -41,3 +41,6 @@ This is the homepage for the user once logged in. Their homepage displays the us
 Sell:
 A user can sell any share of his stocks. The stock sold will update the SQL table for the user's transactions and state therein that something was sold. Should the user type more shares than the user possesses, an error message will be displayed stating that the user has insufficient shares. 
 
+History:
+This window shows a list of a users transactions: what time something was sold or bought and what shares were sold or bought.
+

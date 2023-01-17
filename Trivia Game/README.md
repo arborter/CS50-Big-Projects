@@ -1,4 +1,4 @@
-This web application utilizes JavaScript, HTML, and CSS for  a trivia game.
+This web application utilizes JavaScript for real-time functionality, HTML, and CSS for  a trivia game.
 
 Features:
 

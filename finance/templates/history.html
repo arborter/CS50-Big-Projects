@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %} History {% endblock %}
+
+{% block main %}
+
+<table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Symbol</th>
+        <th scope="col">Type</th>
+        <th scope="col">Shares</th>
+        <th scope="col">Price</th>mk
+        <th scope="col">Time</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for sale in transactions %}
+        <tr>
+            <td>{{ sale["symbol"].upper() }}</td>
+            <td>{{ sale["type"] }}</td>
+            <td>{{ sale["shares"] }}</td>
+            <td>{{ sale["price"] }}</td>
+            <td>{{ sale["time"] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}
